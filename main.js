@@ -1,5 +1,5 @@
-import * as THREE from '/libs/three/build/three.module.js';
-import { GLTFLoader } from '/libs/three/examples/jsm/loaders/GLTFLoader.js';
+import * as THREE from './libs/three/build/three.module.js';
+import { GLTFLoader } from './libs/three/examples/jsm/loaders/GLTFLoader.js';
 
 
 const container = document.querySelector('#model-container');
