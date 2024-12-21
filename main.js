@@ -1,5 +1,6 @@
-import * as THREE from '/portfolio/libs/three/build/three.module.js';
-import { GLTFLoader } from '/portfolio/libs/three/examples/jsm/loaders/GLTFLoader.js';
+ import * as THREE from 'https://cdn.skypack.dev/three@0.128.0/build/three.module.js';
+import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.128.0/examples/jsm/loaders/GLTFLoader.js';
+
 
 
 const container = document.querySelector('#model-container');
@@ -56,7 +57,7 @@ const loader = new GLTFLoader();
 let avatar, mixer, helloAction, idleAction;
 
 loader.load(
-  './portfolio/ilias3D_hello.glb',
+  '/ilias3D_hello.glb',
   (gltf) => {
     avatar = gltf.scene;
     avatar.position.set(0, -6, 0); 
