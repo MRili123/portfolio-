@@ -57,7 +57,7 @@ const loader = new GLTFLoader();
 let avatar, mixer, helloAction, idleAction;
 
 loader.load(
-  '/ilias3D_hello.glb',
+  './ilias3D_hello.glb',
   (gltf) => {
     avatar = gltf.scene;
     avatar.position.set(0, -6, 0); 
